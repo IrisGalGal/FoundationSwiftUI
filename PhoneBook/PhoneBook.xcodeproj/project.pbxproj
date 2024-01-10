@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		F0BE9C492B4DEACE00CBDA04 /* PhoneBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C482B4DEACE00CBDA04 /* PhoneBookApp.swift */; };
-		F0BE9C4B2B4DEACE00CBDA04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C4A2B4DEACE00CBDA04 /* ContentView.swift */; };
+		F0BE9C4B2B4DEACE00CBDA04 /* CompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C4A2B4DEACE00CBDA04 /* CompanyView.swift */; };
 		F0BE9C4D2B4DEACF00CBDA04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BE9C4C2B4DEACF00CBDA04 /* Assets.xcassets */; };
 		F0BE9C502B4DEACF00CBDA04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BE9C4F2B4DEACF00CBDA04 /* Preview Assets.xcassets */; };
+		F0BE9C572B4E32CA00CBDA04 /* m4-challenge.json in Resources */ = {isa = PBXBuildFile; fileRef = F0BE9C562B4E32CA00CBDA04 /* m4-challenge.json */; };
+		F0BE9C592B4E334E00CBDA04 /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C582B4E334E00CBDA04 /* Companies.swift */; };
+		F0BE9C5D2B4E33D500CBDA04 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C5C2B4E33D500CBDA04 /* Employees.swift */; };
+		F0BE9C602B4E347C00CBDA04 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C5F2B4E347C00CBDA04 /* DataService.swift */; };
+		F0BE9C622B4E3DDF00CBDA04 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C612B4E3DDF00CBDA04 /* Company.swift */; };
+		F0BE9C642B4F0CD700CBDA04 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C632B4F0CD700CBDA04 /* Department.swift */; };
+		F0BE9C6A2B4F0DD800CBDA04 /* DepartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C692B4F0DD800CBDA04 /* DepartmentView.swift */; };
+		F0BE9C6C2B4F0E0B00CBDA04 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE9C6B2B4F0E0B00CBDA04 /* EmployeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F0BE9C452B4DEACE00CBDA04 /* PhoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BE9C482B4DEACE00CBDA04 /* PhoneBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookApp.swift; sourceTree = "<group>"; };
-		F0BE9C4A2B4DEACE00CBDA04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0BE9C4A2B4DEACE00CBDA04 /* CompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyView.swift; sourceTree = "<group>"; };
 		F0BE9C4C2B4DEACF00CBDA04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BE9C4F2B4DEACF00CBDA04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0BE9C562B4E32CA00CBDA04 /* m4-challenge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "m4-challenge.json"; sourceTree = "<group>"; };
+		F0BE9C582B4E334E00CBDA04 /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
+		F0BE9C5C2B4E33D500CBDA04 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		F0BE9C5F2B4E347C00CBDA04 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F0BE9C612B4E3DDF00CBDA04 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		F0BE9C632B4F0CD700CBDA04 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		F0BE9C692B4F0DD800CBDA04 /* DepartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentView.swift; sourceTree = "<group>"; };
+		F0BE9C6B2B4F0E0B00CBDA04 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				F0BE9C482B4DEACE00CBDA04 /* PhoneBookApp.swift */,
-				F0BE9C4A2B4DEACE00CBDA04 /* ContentView.swift */,
+				F0BE9C562B4E32CA00CBDA04 /* m4-challenge.json */,
+				F0BE9C4A2B4DEACE00CBDA04 /* CompanyView.swift */,
+				F0BE9C692B4F0DD800CBDA04 /* DepartmentView.swift */,
+				F0BE9C6B2B4F0E0B00CBDA04 /* EmployeeView.swift */,
+				F0BE9C5F2B4E347C00CBDA04 /* DataService.swift */,
+				F0BE9C5E2B4E341100CBDA04 /* Models */,
 				F0BE9C4C2B4DEACF00CBDA04 /* Assets.xcassets */,
 				F0BE9C4E2B4DEACF00CBDA04 /* Preview Content */,
 			);
@@ -65,6 +86,17 @@
 				F0BE9C4F2B4DEACF00CBDA04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0BE9C5E2B4E341100CBDA04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE9C582B4E334E00CBDA04 /* Companies.swift */,
+				F0BE9C612B4E3DDF00CBDA04 /* Company.swift */,
+				F0BE9C632B4F0CD700CBDA04 /* Department.swift */,
+				F0BE9C5C2B4E33D500CBDA04 /* Employees.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +159,7 @@
 			files = (
 				F0BE9C502B4DEACF00CBDA04 /* Preview Assets.xcassets in Resources */,
 				F0BE9C4D2B4DEACF00CBDA04 /* Assets.xcassets in Resources */,
+				F0BE9C572B4E32CA00CBDA04 /* m4-challenge.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0BE9C4B2B4DEACE00CBDA04 /* ContentView.swift in Sources */,
+				F0BE9C4B2B4DEACE00CBDA04 /* CompanyView.swift in Sources */,
+				F0BE9C6A2B4F0DD800CBDA04 /* DepartmentView.swift in Sources */,
 				F0BE9C492B4DEACE00CBDA04 /* PhoneBookApp.swift in Sources */,
+				F0BE9C5D2B4E33D500CBDA04 /* Employees.swift in Sources */,
+				F0BE9C6C2B4F0E0B00CBDA04 /* EmployeeView.swift in Sources */,
+				F0BE9C602B4E347C00CBDA04 /* DataService.swift in Sources */,
+				F0BE9C622B4E3DDF00CBDA04 /* Company.swift in Sources */,
+				F0BE9C642B4F0CD700CBDA04 /* Department.swift in Sources */,
+				F0BE9C592B4E334E00CBDA04 /* Companies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhoneBook/Preview Content\"";
+				DEVELOPMENT_TEAM = U395YUXH44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhoneBook/Preview Content\"";
+				DEVELOPMENT_TEAM = U395YUXH44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

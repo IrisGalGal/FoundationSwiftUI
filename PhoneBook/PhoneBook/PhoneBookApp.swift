@@ -11,7 +11,7 @@ import SwiftUI
 struct PhoneBookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CompanyView()
         }
     }
 }
